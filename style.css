@@ -1,0 +1,97 @@
+
+body{
+   background-color: black;
+   font-family:cursive;
+}
+
+
+p{
+  background-color: lawngreen;
+}
+
+h1{
+    
+}
+.main{
+  font-family:;
+  width:800px;
+  /* mainの幅を800pxにします。*/
+  /* mainの幅を900pxにします。*/
+  background-color: aqua;
+  /* mainの背景の色を水色にします。*/
+　
+  margin: 1000px 50px 30px 100px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.main >p{
+    font-family: fantasy;
+}
+
+/* クラスsubのデザインも同様変えます*/
+.sub{
+    max-width:900px;
+    height: 600px;
+    background-color: red;
+}
+
+
+/* 要素のidを指定します。要素では,クラスと違い（　．）でなく＃を頭に描きます*/
+#sub_id{
+    font-size: 30px; 
+    /* フォントサイズを30pxにします*/
+}
+
+.menu{
+    width:600px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    display:inline-flex;
+    background-color: aquamarine;
+}
+
+.menu1{
+    width:200px;
+    height: 60px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border: solid 1px;
+    border-radius: 10px;
+    position:relative;
+    text-align:center;
+}
+
+
+
+.head_m3{ 
+}
+
+
+@media screen and ( max-width:700px ){
+
+    p{
+        font-size:5px;
+    }
+    
+    
+.main{
+  max-width: ;
+  width:800px;
+  background-color: blue;
+  margin: 10px;
+    padding: 100px 10px 10px 10px;
+    
+
+
+}
+}
+
+p:hover{
+    background-color: darkviolet;
+}
+

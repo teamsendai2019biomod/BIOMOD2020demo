@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!--　<!DOCTYPE html>はHTMLを書きますという宣言  --> 
+
+<!-- wikiの設定を<head>要素の中にかいていきます。タイトルや参照するほかのファイルを指定したりします --> 
+<html>
+    
+    <head>
+        <!-- wikiの設定を<head>要素の中にかいていきます。タイトルや参照するほかのファイルを指定したりします -->
+        
+        <meta charset="utf-8">
+        <!--　Wikiを書く際のおまじないです。文字の設定です。  --> 
+        <title>ソフトウェア講習会</title>
+    　　　<!--  ページタイトル -->
+        <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+     　　<!--  これは気にしないでください --> 
+        
+        <link rel="stylesheet" media="all" type="text/css" href="style.css" />
+　　　　　<!-- renshu.cssを参照するコマンドです。 -->
+        
+    </head> 
+    
+    
+    
+　  <body>
+    
+    <!-- メニューの作成 --> 
+     <ul class="menu">
+         <li class=""><a href = ""> HOME</a></li>
+       <li class=""> <a href = "">Youtube</a></li>
+       <li class=""> <a href = "">Future</a></li>
+     </ul>
+<!-- htmlは大きく分けてクラスと要素があります。クラスの中に要素が入ります。要素の中にクラスが入ることは基本ありません。これについては, 簡単に調べてみてください。 --> 
+       
+       
+       <div class="main">
+           <!-- mainという名前のクラスを作りました。これはワードでいう, テキストバックスみたいなものです。 --> 
+           
+           <!-- mainという名前のクラスの中に, 要素を詰め込んでいきます。 --> 
+           <h1>Youtube</h1>
+           
+           <p>2019のBIOMOD　TeamSendaiのYouTubeです</p>
+               
+       <iframe width="560px" height=""
+src="https://www.youtube.com/embed/68UUbTgIIBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+       </div>
+       
+       
+    </body>
+</html>
